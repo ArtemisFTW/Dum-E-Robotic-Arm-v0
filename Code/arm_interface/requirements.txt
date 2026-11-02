@@ -1,0 +1,4 @@
+numpy>=1.24,<3
+# The desktop widgets use Python's built-in tkinter.
+# UART streaming and serial-port enumeration.
+pyserial>=3.5,<4

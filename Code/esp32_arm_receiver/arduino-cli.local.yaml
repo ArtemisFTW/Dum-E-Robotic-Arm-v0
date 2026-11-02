@@ -1,0 +1,6 @@
+directories:
+  data: C:/Users/hrish/AppData/Local/Arduino15
+  downloads: E:/Work/Robotic arm/Code/esp32_arm_receiver/.downloads
+  user: E:/Work/Robotic arm/Code/esp32_arm_receiver/.arduino-user
+build_cache:
+  path: E:/Work/Robotic arm/Code/esp32_arm_receiver/.build-cache
