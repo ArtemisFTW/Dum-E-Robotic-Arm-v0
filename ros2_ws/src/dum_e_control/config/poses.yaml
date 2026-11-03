@@ -1,0 +1,8 @@
+# Servo degrees; XYZ uses metres; dh uses radians.
+poses:
+  - mode: servo
+    values: [90, 45, 180]
+  - mode: servo
+    values: [70, 30, 40]
+  - mode: xyz
+    values: [0.1291673, 0.0469705, 0.2119948]

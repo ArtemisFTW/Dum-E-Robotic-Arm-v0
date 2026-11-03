@@ -1,0 +1,10 @@
+/dum_e/kinematics:
+  ros__parameters:
+    publish_rate: 20.0
+    base_frame: base_link
+/dum_e/serial_bridge:
+  ros__parameters:
+    stream_rate: 20.0
+    startup_delay: 2.5
+    command_timeout: 0.5
+    ack_timeout: 2.0

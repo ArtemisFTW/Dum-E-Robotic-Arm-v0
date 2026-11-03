@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Build ROS 2", "type": "process", "command": "${workspaceFolder}/build_ros2.sh", "group": "build", "problemMatcher": []},
+    {"label": "Run ROS 2 dry run", "type": "process", "command": "${workspaceFolder}/run_ros2.sh", "problemMatcher": []},
+    {"label": "Open ROS 2 Arm Console", "type": "process", "command": "${workspaceFolder}/gui.sh", "problemMatcher": []}
+  ]
+}

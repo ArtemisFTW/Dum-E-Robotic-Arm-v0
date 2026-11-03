@@ -1,0 +1,6 @@
+# Change connection selection without opening the device. Only while disabled.
+string port
+bool dry_run
+---
+bool success
+string message

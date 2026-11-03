@@ -1,0 +1,9 @@
+{
+  "a_mm": [10.35, 125.7, 105.0],
+  "d_mm": [45.74, 6.24, 6.2],
+  "alpha_deg": [90.0, -180.0, 0.0],
+  "servo_offsets_deg": [90.0, 0.0, 90.0],
+  "servo_directions": [-1, 1, 1],
+  "cartesian_axis_signs": [1, 1, 1],
+  "near_singular_threshold": 0.001
+}

@@ -1,0 +1,19 @@
+# Read-only validation and resolution; never selects a live command.
+# mode: servo (degrees), dh (radians), xyz (metres in base_link).
+string mode
+float64[3] values
+bool use_reference
+uint16[3] reference_degrees
+---
+bool success
+string message
+uint16[3] degrees
+float64[3] xyz_m
+float64[3] dh_radians
+float64 sigma_min
+bool singular
+bool near_singular
+float64 position_error_m
+string branch
+string error_code
+string model_json

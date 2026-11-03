@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "files.exclude": {"ros2_ws/build": true, "ros2_ws/log": true},
+  "files.watcherExclude": {"**/ros2_ws/build/**": true, "**/ros2_ws/install/**": true, "**/ros2_ws/log/**": true},
+  "terminal.integrated.profiles.linux": {
+    "Dum-E ROS 2": {"path": "/bin/bash", "args": ["--rcfile", "${workspaceFolder}/scripts/vscode_bashrc.sh"]}
+  },
+  "terminal.integrated.defaultProfile.linux": "Dum-E ROS 2"
+}
